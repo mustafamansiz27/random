@@ -1,0 +1,15 @@
+https://www.gamingpromarket.com/
+
+
+https://ecommerce-backend-v2.herokuapp.com/swagger-ui/index.html
+
+
+dispatch  merkezi state deki datayı manupule ediyor;
+örneğin , dispatch(loginSuccess(resp.data)) diyoruz ve merkezi state deki loginSuccess i  manupule edilyoruz merkezi state deki loginSuceess 
+şu sekildedir ;
+loginSuccess =(state , action){
+ isUserLogin = true;
+user.state = action.payload 
+} 
+
+olarak loginSuccess devreye girer  eğer  catch e girerse loginFaild olur oda  zaten boş obje verir
