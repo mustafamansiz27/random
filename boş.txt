@@ -13,3 +13,6 @@ user.state = action.payload
 } 
 
 olarak loginSuccess devreye girer  eğer  catch e girerse loginFaild olur oda  zaten boş obje verir
+
+
+absd
